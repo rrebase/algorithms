@@ -9,6 +9,7 @@ I will try to make my implementations as clean and readable as possible.
 Feel free to use any of this code.
 
 Goals:
+
 - 10 days
 - 30 days
 - 50 days
