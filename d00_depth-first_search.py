@@ -1,6 +1,6 @@
 # Depth-first search algorithm
 
-# dictionary representation of a graph
+# dictionary representations of graph
 graph = {
     'A': ['Z'],
     'Z': ['C', 'Y'],
@@ -17,9 +17,9 @@ def dfs(node):  # starting node
     visited.append(node)
     if node not in graph:
         return
-    for i in graph[node]:
-        if i not in visited:
-            dfs(i)
+    for neighbour in graph[node]:  # call dfs with every neighbour node
+        if neighbour not in visited:
+            dfs(neighbour)
     return path
 
 print(dfs('A'))  # out -> ['A', 'Z', 'C', 'D', 'B', 'F', 'G', 'Y']
