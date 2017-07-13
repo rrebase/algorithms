@@ -1,6 +1,6 @@
 # Depth-first search algorithm
 
-# dictionary representations of graph
+# dictionary representation of a graph
 graph = {
     'A': ['Z'],
     'Z': ['C', 'Y'],

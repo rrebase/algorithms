@@ -1,3 +1,5 @@
+# Depth-first search bonus
+
 # adjacency list representation
 graph = [
     [3, 5],

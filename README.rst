@@ -8,7 +8,7 @@ I will try to make my implementations as clean and readable as possible using be
 
 Feel free to use any of this code.
 
-Goals:
+Current goals:
 
 - 10 days
 - 30 days
