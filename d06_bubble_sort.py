@@ -1,4 +1,4 @@
-# Quicksort algorithm
+# Bubble sort algorithm
 
 
 def bubble_sort(arr):
