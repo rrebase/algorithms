@@ -38,9 +38,7 @@ class Tic:
         :return: list of moves
         """
         moves = []
-        for cell in self.game_state.keys():
-            if self.game_state[cell] is None:
-                moves.append(cell)
+        [moves.append(cell) for cell in self.game_state.keys() if self.game_state[cell] is None]
         return moves
 
     def check_for_winner(self):
