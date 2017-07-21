@@ -35,7 +35,7 @@ class Tic:
     def get_moves(self):
         """
         Get a list of moves that are not None.
-        :return: list of moves
+        :return: list of available moves
         """
         moves = []
         [moves.append(cell) for cell in self.game_state.keys() if self.game_state[cell] is None]
