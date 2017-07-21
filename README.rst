@@ -10,7 +10,7 @@ Feel free to use any of this code.
 
 Current goals:
 
-- 10 days
+- 10 days :heavy_check_mark:
 - 30 days
 - 50 days
 - 100 days
