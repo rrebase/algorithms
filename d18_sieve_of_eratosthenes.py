@@ -1,11 +1,12 @@
 # Sieve of Eratosthenes
+from math import sqrt
 
 
 def eratosthenes(n):
     """Return all prime numbers up to n as a list."""
     primes = [True for _ in range(n + 1)]
     primes[0], primes[1] = False, False
-    for i in range(2, n):
+    for i in range(2, int(sqrt(n))):
         if primes[i]:
             j = 2
             while i * j <= n:
