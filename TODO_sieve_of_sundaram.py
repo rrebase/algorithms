@@ -2,6 +2,7 @@
 
 
 def sundaram(n):
+    """Return all prime numbers up to n as a list."""
     n_half = (n - 1) // 2
     arr = list(range(n_half + 1))
     i = 1
