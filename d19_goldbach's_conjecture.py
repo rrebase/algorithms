@@ -16,7 +16,6 @@ def prime_sum(n, primes):
         i += 1
 
 
-if __name__ == '__main__':
-    print(prime_sum(4, eratosthenes(10000)))  # 2 + 2 = 4
-    print(prime_sum(64, eratosthenes(10000)))  # 3 + 61 = 64
-    print(prime_sum(720, eratosthenes(10000)))  # 11 + 709 = 720
+print(prime_sum(4, eratosthenes(10000)))  # 2 + 2 = 4
+print(prime_sum(64, eratosthenes(10000)))  # 3 + 61 = 64
+print(prime_sum(720, eratosthenes(10000)))  # 11 + 709 = 720
