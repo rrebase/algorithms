@@ -1,5 +1,5 @@
-A new algorithm every day
--------------------------
+Algorithms in Python
+--------------------
 
 This repo contains implementations of different algorithms in :code:`Python 3.6`
 
